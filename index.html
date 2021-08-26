@@ -47,20 +47,15 @@
     <div class="input-group mt-2 w-25 text-center m-auto">
         <input id="input-field" type="text" class="form-control" placeholder="Search Your Favorite Food"
             aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button class="btn btn-info" type="button" id="search-button">search</button>
+        <button onclick="searchFood()" class="btn btn-info" type="button" id="search-button">search</button>
     </div>
 
     <!-- Card Item -->
 
-    <div class="container mt-5">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container">
+        <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col">
+
             </div>
         </div>
     </div>
