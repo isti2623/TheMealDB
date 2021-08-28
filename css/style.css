@@ -1,3 +1,18 @@
 * body{
     background-color:rgb(13, 182, 224);
 }
+
+#block{
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(168, 0, 0);
+}
+#bloc{
+    display: none;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(168, 0, 0);
+}
